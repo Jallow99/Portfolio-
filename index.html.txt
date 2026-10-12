@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<!-- 24-08-24, 22:21, boys' house -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Ebrima Mbye</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="header" id="header">
+      <div class="container">
+        <nav class="nav">
+          <img src="assets//images/icon.png" class="logo" />
+          <ul class="nav-ul" id="sideMenu">
+            <li class="nav-li"><a class="nav-item" href="#header">Home</a></li>
+            <li class="nav-li"><a class="nav-item" href="#about">About</a></li>
+            <li class="nav-li"><a class="nav-item" href="#services">Services</a></li>
+            <li class="nav-li"><a class="nav-item" href="#portfolio">Portfolio</a></li>
+            <li class="nav-li"><a class="nav-item" href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>UI/UX Designer</p>
+          <h1 class="header--h1">
+            Hi, I'm <span class="header-h1-span">Ebrima</span><br />
+            Mbye From Gambia.
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- --------about----------- -->
+    <div class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img class="about-col-1-img" src="assets//images/user2.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus doloribus obcaecati vero. Voluptatum aut architecto
+              ratione laudantium incidunt debitis ullam in ab mollitia. Ut
+              doloribus doloremque eos eligendi, illo possimus. Debitis, iste
+              ratione. Iusto, perferendis modi ipsum veritatis veniam voluptates
+              doloribus doloremque eos eligendi, illo possimus. Debitis, iste
+              ratione. Iusto, perferendis modi ipsum veritatis veniam voluptates
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="openTab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="openTab('experiece')">Experience</p>
+              <p class="tab-links" onclick="openTab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li class="tab-contents-li"><span class="tab-contents-li-span">UI/UX</span><br />Designing Web/App Interfaces</li>
+                <li class="tab-contents-li"><span class="tab-contents-li-span">Web Development</span><br />Web app Development</li>
+                <li class="tab-contents-li">
+                  <span class="tab-contents-li-span">App Development</span><br />Building Android/iOS apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experiece">
+              <ul>
+                <li>
+                  <span>2021 - Current</span><br />UI/UX Design Training at My Tech Gambia
+                </li>
+                <li><span>2019 - 2021</span><br />Team Lead at StarApp LLC, Kotu</li>
+                <li>
+                  <span>2017 - 2019</span><br />UI/UX Design Executive at Youths In Tech.
+                </li>
+                <li>
+                  <span>2016 - 2017</span><br />Internship at Farm Fresh Gambia
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2016</span><br />Designing Web/App Interfaces</li>
+                <li><span>2016</span><br />MSc from MIT Banjul</li>
+                <li><span>q2014</span><br />BBA from ISM Kanifing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------services------------ -->
+
+    <div id="services" class="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div class="service">
+            <i class="service-icon fas fa-code"></i>
+            <h2 class="service-name">Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              quia, dolores culpa ex odio ad libero facere voluptas numquam,
+              voluptate, excepturi error sed nobis dignissimos molestias
+              voluptatem vel hic! Unde?
+            </p>
+            <a class="service-learn-more-link" href="#">Learn More</a>
+          </div>
+          <div class="service">
+            <i class="service-icon fas fa-crop-alt"></i>
+            <h2 class="service-name">UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              quia, dolores culpa ex odio ad libero facere voluptas numquam,
+              voluptate, excepturi error sed nobis dignissimos molestias
+              voluptatem vel hic! Unde?
+            </p>
+            <a class="service-learn-more-link" href="#">Learn More</a>
+          </div>
+          <div class="service">
+            <i class="service-icon fab fa-app-store"></i>
+            <h2 class="service-name">App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              quia, dolores culpa ex odio ad libero facere voluptas numquam,
+              voluptate, excepturi error sed nobis dignissimos molestias
+              voluptatem vel hic! Unde?
+            </p>
+            <a class="service-learn-more-link" href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------portfolio----------- -->
+    <div class="portfolio" id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img class="work-img" src="assets//images/work-1.jpg" />
+            <div class="layer">
+              <h3 class="layer-h3">Social Media App</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#" class="fas fa-external-link-alt"></a>
+            </div>
+          </div>
+          <div class="work">
+            <img class="work-img" src="assets//images/work-2.jpg" />
+            <div class="layer">
+              <h3 class="layer-h3">Music App</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#" class="fas fa-external-link-alt"></a>
+            </div>
+          </div>
+          <div class="work">
+            <img class="work-img" src="assets//images/work-3.jpg" />
+            <div class="layer">
+              <h3 class="layer-h3">Online Shopping App</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#" class="fas fa-external-link-alt"></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- -----------contact-------------------- -->
+    <div class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p class="contact-left"><i class="contact-left-p-i fas fa-paper-plane"></i>ebrimam747@gmail.com</p>
+            <p class="contact-left"><i class="contact-left-p-i fas fa-phone-square-alt"></i>2202517827</p>
+            <div class="social-icons">
+              <a class="social-icon-link" href="#"><i class="fab fa-facebook"></i></a>
+              <a class="social-icon-link" href="#"><i class="fab fa-twitter"></i></a>
+              <a class="social-icon-link" href="#"><i class="fab fa-instagram"></i></a>
+              <a class="social-icon-link" href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="assets/resume.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form class="form">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="text"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        Copyright &copy; Ebrima Mbye. Made with <i class="copyright-icon fas fa-heart"></i> by
+        Genius Ebrima
+      </div>
+    </div>
+
+    <script>
+      var tabLinks = document.getElementsByClassName("tab-links");
+      var tabContents = document.getElementsByClassName("tab-contents");
+
+      function openTab(tabName) {
+        for (tabLink of tabLinks) {
+          tabLink.classList.remove("active-link");
+        }
+        for (tabContent of tabContents) {
+          tabContent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sideMenu = document.getElementById("sideMenu");
+      function openMenu() {
+        sideMenu.style.right = "0";
+      }
+      function closeMenu() {
+        sideMenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
