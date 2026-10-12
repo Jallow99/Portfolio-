@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammed Babou - Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <header>
+    <h1>Mamadou Alieu Jallow</h1>
+    <p>Passionate Computer Science Student & Web Developer</p>
+  </header>
+
+  <div class="container">
+    <nav class="sidebar">
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hello! My name is Mamadou Alieu Jallow, and I am a passionate Computer Science student
+          with a strong interest in web development and software engineering. 
+          I enjoy turning ideas into functional projects, learning new technologies,
+          and improving my skills through practice.
+        </p>
+      </section>
+
+      <section id="projects">
+        <h2>My Projects</h2>
+        <ul>
+          <li><strong>Vehicle Rental System (Java):</strong> A project using classes, inheritance, and interfaces to manage cars, bikes, and trucks.</li>
+          <li><strong>To-Do List App (Java):</strong> A simple yet functional project that helps manage tasks with add, edit, and delete features.</li>
+          <li><strong>Basic Calculator (HTML & CSS):</strong> My first step into frontend development, applying layout and styling skills.</li>
+          <li><strong>Tribute Page (HTML & CSS):</strong> A project that allowed me to practice semantic HTML and external CSS styling.</li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+          <li><strong>HTML & CSS:</strong> Semantic HTML, external CSS, responsive design (Flexbox, Grid).</li>
+          <li><strong>Java Programming:</strong> OOP concepts (classes, inheritance, interfaces, arrays).</li>
+          <li><strong>Problem Solving:</strong> Algorithms (linear search, binary search, sorting).</li>
+          <li><strong>Git & GitHub:</strong> Version control, repositories, GitHub Pages.</li>
+          <li><strong>UI/UX Awareness:</strong> Color palettes, typography, layouts, and spacing.</li>
+          <li><strong>Project Development:</strong> Planning, structuring, and building functional apps.</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:mamadou6813@gmail.com">Mamadou6813@gmail.com</a></p>
+        <p>Phone: <a href="tel:+2202357946">+220 2357946</a></p>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Mamadou Alieu Jallow. All rights reserved.</p>
+  </footer>
+</body>
+</html>
